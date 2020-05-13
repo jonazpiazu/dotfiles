@@ -20,6 +20,8 @@ alias eclipse="~/bin/eclipse/eclipse &"
 alias cmake_eclipse="cmake -G\"Eclipse CDT4 - Unix Makefiles\" -DCMAKE_ECLIPSE_GENERATE_SOURCE_PROJECT=TRUE"
 alias cccmake='mkdir -p build && cd build && cmake .. ; notify-send --urgency=low "CMake finished" && make -j$(awk "BEGIN {printf \"%.0f\n\", $(nproc)*0.8}") ; notify-send --urgency=low "Compilation finished"'
 
+alias git-branch-fresh='for branch in `git branch -r | grep -v HEAD`;do echo -e `git show --format="%ci %cr" $branch | head -n 1` \\t$branch; done | sort -r'
+
 alias devcontainer_pkg='curl -L "https://git.code.tecnalia.com/tecnalia_robotics-public/gitlab_templates/-/jobs/artifacts/master/raw/dot_devcontainer.tar.gz?job=deploy_devcontainer" | tar xz'
 
 # ROS
