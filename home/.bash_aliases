@@ -27,6 +27,8 @@ alias devcontainer_pkg='curl -L "https://git.code.tecnalia.com/tecnalia_robotics
 # ROS
 alias catkin_tools_eclipse='catkin build  --force-cmake -G"Eclipse CDT4 - Unix Makefiles"'
 alias cb='catkin build -j6 --cmake-args -DCMAKE_CXX_FLAGS=-w -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -- &&  ~/bin/scripts/create_catkin_ws_compilation_database.py'
+alias catkinws='catkin locate --workspace $(pwd)'
+alias sc='source $(catkinws)/devel/setup.zsh'
 
 # Docker
 alias docker_full_clean='docker rm -f $(docker ps -aq) ; docker rmi -f $(docker images -q)'
@@ -37,3 +39,6 @@ alias docker_run_x11_ssh_auth='docker run -it --volume $SSH_AUTH_SOCK:/ssh-agent
 # Vagrant
 alias vagrant_resume_all='vagrant global-status | awk "/saved/{print \$1}" | xargs -r -d "\n" -n 1 -- vagrant resume'
 alias vagrant_suspend_all='vagrant global-status | awk "/running/{print \$1}" | xargs -r -d "\n" -n 1 -- vagrant suspend'
+
+# By file extension
+alias -s {md,adoc}='code'

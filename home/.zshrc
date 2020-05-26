@@ -1,3 +1,5 @@
+#zmodload zsh/zprof
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -93,6 +95,7 @@ antigen theme ys
 antigen bundle 'wfxr/forgit'
 antigen bundle paulirish/git-open
 antigen bundle popstas/zsh-command-time
+antigen bundle "MichaelAquilina/zsh-auto-notify"
 antigen apply
 source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
@@ -106,3 +109,5 @@ source $HOME/.init_shell
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
+
+#zprof
