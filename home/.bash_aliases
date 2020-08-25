@@ -26,7 +26,7 @@ alias devcontainer_pkg='curl -L "https://git.code.tecnalia.com/tecnalia_robotics
 
 # ROS
 alias catkin_tools_eclipse='catkin build  --force-cmake -G"Eclipse CDT4 - Unix Makefiles"'
-alias cb='catkin build -j6 --cmake-args -DCMAKE_CXX_FLAGS=-w -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -- &&  ~/bin/scripts/create_catkin_ws_compilation_database.py'
+alias cb='catkin build -j6 --cmake-args -DCMAKE_CXX_FLAGS=-w -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -Wno-dev -- &&  ~/bin/scripts/create_catkin_ws_compilation_database.py'
 alias catkinws='catkin locate --workspace $(pwd)'
 alias sc='source $(catkinws)/devel/setup.zsh'
 
