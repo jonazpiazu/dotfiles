@@ -22,7 +22,9 @@ alias cccmake='mkdir -p build && cd build && cmake .. ; notify-send --urgency=lo
 
 alias git-branch-fresh='for branch in `git branch -r | grep -v HEAD`;do echo -e `git show --format="%ci %cr" $branch | head -n 1` \\t$branch; done | sort -r'
 
-alias devcontainer_pkg='curl -L "https://git.code.tecnalia.com/tecnalia_robotics-public/gitlab_templates/-/jobs/artifacts/master/raw/dot_devcontainer.tar.gz?job=deploy_devcontainer" | tar xz'
+#alias devcontainer_pkg='curl -L "https://git.code.tecnalia.com/tecnalia_robotics-public/gitlab_templates/-/jobs/artifacts/master/raw/dot_devcontainer.tar.gz?job=deploy_devcontainer" | tar xz'
+alias devcontainer_pkg='cp -r ~/workspace/vscode_devcontainer/dot_devcontainer .devcontainer'
+alias devcontainer_ws='cp -r ~/workspace/vscode_devcontainer/dot_devcontainer_catkin_ws .devcontainer'
 
 # ROS
 alias catkin_tools_eclipse='catkin build  --force-cmake -G"Eclipse CDT4 - Unix Makefiles"'
