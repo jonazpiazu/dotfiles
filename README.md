@@ -27,22 +27,34 @@ Some applications that I rely on.
 
 ### From apt
 
-- copyq - Clipboard Manager with Advanced Features
 - AutoKey
+- copyq - Clipboard Manager with Advanced Features
+- meld
+- recoll
 
 ### From snapcraft
 
+- blender
 - [CloudCompare](https://www.danielgm.net/cc/)
 - docfetcher
-- freecad
 - freeplane-mindmapping
+- neovim
+- ripgrep
 - spotify
 - zotero-snap
+
+## From Flatpak
+
+- freecad
 
 ### Download from the website
 
 - [Albert launcher](https://albertlauncher.github.io/docs/installing/)
+- [asciinema edit](https://github.com/cirocosta/asciinema-edit)
+- [Davmail](http://davmail.sourceforge.net/)
+- [fd is a simple, fast and user-friendly alternative to find](https://github.com/sharkdp/fd)
 - [FreeFileSync](https://freefilesync.org/)
+- [GitAhead is a graphical Git client](https://gitahead.github.io/gitahead.com/)
 - [Rclone - rsync for cloud storage](https://rclone.org/downloads/): can mount OneDrive using FUSE
 - [OneDrive Client for Linux](https://github.com/abraunegg/onedrive)
 - XMind
@@ -53,6 +65,7 @@ Some applications that I rely on.
 - [Foxit Reader](https://www.foxitsoftware.com/pdf-reader/)
 - [yEd - Graph Editor](https://www.yworks.com/products/yed)
 - [PlantUML](https://plantuml.com/)
+- [trash-cli](https://github.com/andreafrancia/trash-cli)
 
 ### PlayOnLinux
 
