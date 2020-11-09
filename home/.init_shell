@@ -24,6 +24,8 @@ source /opt/ros/kinetic/setup.zsh
 export ROSEM_PATHS=${HOME}/workspace
 export ROSEM_EDITOR=code
 source ${HOME}/.rosem/rosem
+export ROSCONSOLE_CONFIG_FILE=${HOME}/.ros/config/rosconsole.config
+export ROSCONSOLE_FORMAT='[${severity}] [${node}] [${time}]: ${message}'
 
 # Golang
 export GOROOT=/usr/local/go
