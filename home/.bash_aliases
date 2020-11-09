@@ -44,3 +44,7 @@ alias vagrant_suspend_all='vagrant global-status | awk "/running/{print \$1}" | 
 
 # By file extension
 alias -s {md,adoc}='code'
+
+# Flatkpak aliases
+alias freecad="org.freecadweb.FreeCAD"
+alias vim="org.vim.Vim"
