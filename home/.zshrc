@@ -96,6 +96,7 @@ antigen bundle 'wfxr/forgit'
 antigen bundle paulirish/git-open
 antigen bundle popstas/zsh-command-time
 antigen bundle "MichaelAquilina/zsh-auto-notify"
+antigen bundle sudo
 antigen apply
 source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
