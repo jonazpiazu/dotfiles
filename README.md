@@ -14,7 +14,7 @@ $HOME/.homesick/repos/homeshick/bin/homeshick clone jonazpiazu/dotfiles
 ## Usage
 
 ```
-source .homesick/repos/homeshick/homeshick.sh
+source ~/.homesick/repos/homeshick/homeshick.sh
 homeshick track dotfiles .bashrc
 homeshick cd dotfiles
 git commit -m "Added .bashrc file"
@@ -29,6 +29,7 @@ Some applications that I rely on.
 
 - AutoKey
 - copyq - Clipboard Manager with Advanced Features
+- imwheel
 - meld
 - recoll
 
