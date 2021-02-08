@@ -49,7 +49,7 @@ Some applications that I rely on.
 
 ### Download from the website
 
-- [Albert launcher](https://albertlauncher.github.io/docs/installing/)
+- [Albert launcher](https://albertlauncher.github.io/installing/)
 - [asciinema edit](https://github.com/cirocosta/asciinema-edit)
 - [Davmail](http://davmail.sourceforge.net/)
 - [fd is a simple, fast and user-friendly alternative to find](https://github.com/sharkdp/fd)
@@ -66,6 +66,11 @@ Some applications that I rely on.
 - [yEd - Graph Editor](https://www.yworks.com/products/yed)
 - [PlantUML](https://plantuml.com/)
 - [trash-cli](https://github.com/andreafrancia/trash-cli)
+- [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/download-app#allDevicesSection)
+- [Kdenlive video editor](https://kdenlive.org/en/download/) (AppImage)
+- [restic bacup](https://github.com/restic/restic/releases)
+- [ShellCheck, a static analysis tool for shell scripts](https://github.com/koalaman/shellcheck)
+- [ngrok - secure introspectable tunnels to localhost](https://ngrok.com/)
 
 ### PlayOnLinux
 
